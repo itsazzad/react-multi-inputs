@@ -44,14 +44,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Inputs
-          id={this.state.id} //For detecting changes
-          legend={this.state.legend}
-          size={this.state.size}
-          inputs={this.state.inputs}
-          onChange={this.onChange}
-        />
-        <hr />
         <section>
           <button type="button" className="btn" onClick={this.onCancel}>
             <span>Cancel</span>
@@ -64,6 +56,14 @@ class App extends React.Component {
             <span>Save</span>
           </button>
         </section>
+        <hr />
+        <Inputs
+          id={this.state.id} //For detecting changes
+          legend={this.state.legend}
+          size={this.state.size}
+          inputs={this.state.inputs}
+          onChange={this.onChange}
+        />
       </div>
     );
   }

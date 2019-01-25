@@ -58,6 +58,11 @@ export default class Inputs extends React.Component {
   componentDidMount() {
     this.onChangeCallback();
   }
+  componentDidUpdate(prevProps) {
+    if (this.props.id !== prevProps.id) {
+      this.onChangeCallback();
+    }
+  }
 
   onChangeCallback() {
     this.props.onChange &&
