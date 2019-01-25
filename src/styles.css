@@ -2,3 +2,36 @@
   font-family: sans-serif;
   text-align: center;
 }
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0 15px;
+  border-radius: 4px;
+  height: 32px;
+  user-select: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+  margin: 5px;
+}
+.btn:hover,
+.btn:focus {
+  color: #40a9ff;
+  background-color: #fff;
+  border-color: #40a9ff;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}

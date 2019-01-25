@@ -5,10 +5,12 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "immutability-helper": "3.0.0",
     "prop-types": "15.6.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-scripts": "2.0.3"
+    "react-scripts": "2.0.3",
+    "uniqid": "5.0.3"
   },
   "devDependencies": {},
   "scripts": {

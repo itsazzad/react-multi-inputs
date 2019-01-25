@@ -1,8 +1,9 @@
 .box {
   border: 1px solid #ebedf0;
-  border-radius: 2px;
+  border-radius: 4px;
   position: relative;
   padding: 18px 32px;
+  margin: 5%;
   font-size: 14px;
   color: #314659;
   line-height: 2;
